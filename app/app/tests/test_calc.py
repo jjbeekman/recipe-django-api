@@ -12,4 +12,4 @@ class CalcTests(SimpleTestCase):
         res = add(x, y)
 
         # Then
-        res = 7
+        assert res == 7
